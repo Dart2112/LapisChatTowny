@@ -1,0 +1,9 @@
+# this will replace {TOWNY} in any channels format
+# Variables are {TOWN_NAME} and {ROLE} role is King, Mayor or Resident
+Format: "{ROLE} of {TOWN_NAME}"
+Channel:
+  Name: "Town"
+  ShortName: "t"
+  Prefix: "[T]"
+  Permission: "LapisChat.Town"
+  Format: "{CHANNEL_PREFIX} {TOWNY} {PREFIX} {NAME} {SUFFIX} &7>&f {MESSAGE}"

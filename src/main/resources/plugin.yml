@@ -1,0 +1,5 @@
+name: LapisChatTowny
+version: ${project.version}
+main: net.lapismc.lapischat.towny.LapisChatTowny
+depend: [Towny, LapisChat]
+authors: [Dart2112]
